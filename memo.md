@@ -15,3 +15,15 @@ adb shell settings put secure sysui_rounded_content_padding 5
 
 
 *#*#4636#*#*
+
+Android 4.3 or older:
+
+/data/data/com.android.providers/telephony/database/mmssms.db
+
+Android 4.4 or later:
+
+/data/data/com.android.providers.telephony/database/mmssms.db
+
+Android 7.0 and above:
+
+/data/user_de/0/com.android.providers.telephony/databases/mmssms.db
